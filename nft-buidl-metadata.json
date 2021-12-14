@@ -1,0 +1,9 @@
+{
+    "attributes" : [ {
+      "trait_type" : "Troll",
+      "value" : "100"
+    } ],
+    "description" : "The troll picture",
+    "image" : "https://gateway.pinata.cloud/ipfs/QmcKHJzQxev2Ugxe2yCRMC1Uo3o9ma5Hee7owyX1etKaQH",
+    "name" : "RickRoll"
+}

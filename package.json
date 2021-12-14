@@ -1,0 +1,22 @@
+{
+  "name": "buidlit",
+  "version": "1.0.0",
+  "description": "Buidlit hackathon submission",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.7.1"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.1.9",
+    "@openzeppelin/contracts": "^3.1.0-solc-0.7",
+    "dotenv": "^10.0.0",
+    "web3": "^1.6.1"
+  }
+}
