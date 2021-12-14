@@ -167,7 +167,7 @@ class Player {
             DEAD_PLAYERS++
             loseMusic.play()
             if(DEAD_PLAYERS == players.length){
-                text.innerText = "Everyone lost!!!"
+                text.innerText = "You lost!!!"
                 gameStat = "ended"
             }
             if(DEAD_PLAYERS + SAFE_PLAYERS == players.length){
@@ -182,7 +182,7 @@ class Player {
             winMusic.play()
             mintNFT("https://gateway.pinata.cloud/ipfs/QmSw5amDNUPs3umY8v6Fe74UwHRH7SdTo4ZmY2LfB2rbq6");
             if(SAFE_PLAYERS == players.length){
-                text.innerText = "Everyone is safe!!!"
+                text.innerText = "You are safe!!!"
                 gameStat = "ended"
             }
             if(DEAD_PLAYERS + SAFE_PLAYERS == players.length){
