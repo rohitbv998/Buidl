@@ -193,7 +193,7 @@ async function delay(ms){
 }
 
 const player1 = new Player("Player 1", .25, 0, 0xD1FFC6)
-// const player2 = new Player("Player 2", .25, -.3, 0xFFCFD2)
+
 
 const players = [
     {
